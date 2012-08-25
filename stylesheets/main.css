@@ -1,0 +1,124 @@
+/* CSS Document */
+
+html {
+    height: 100%; width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #FFFFFF;
+    font: 13px/15px Verdana,Arial,Helvetica,sans-serif;
+}
+
+img {
+    border: none;
+}
+
+table, tr, td, tr {
+    border-collapse: collapse;
+    vertical-align: top;
+    text-align: left;
+    font: 13px/15px Verdana,Arial,Helvetica,sans-serif;
+}
+
+a {
+    color: #8D0D19;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#header {
+    height: 70px;
+    text-align: left;
+    background: #B0E02A; color: #fff;
+}
+
+#header h1 {
+    padding: 1em;
+    margin: 0;
+}
+
+#header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Note: IE 5 & 6 won't understand min-height */
+#main {
+    min-height: 600px;
+    width: 100%;
+    background: #FF6;
+    padding: 2em;
+	overflow: auto;
+}
+
+#footer { 
+    height: 2em;
+    padding: 1em;
+    text-align: center; 
+    background: #B0E02A;
+    color: #fff; 
+}
+
+table.bordered tr th, table.bordered tr td {
+    border: 1px solid #000000;
+}
+
+#pagination {
+    clear: both;
+    padding-top: 20px;
+}
+
+#pagination .selected {
+    font-weight: bold;
+    color: #8D0D19;
+}
+
+.pics {
+    display: block;
+    width: 180px;
+    height: 220px;
+    border: solid 3px #000;
+    text-align: center;
+    padding-top: 10px;
+    background: #efefef;
+    margin: 20 0 0 20;
+    float: left;
+    text-decoration: none;
+}
+
+.pics img {
+    margin-bottom: 5px;
+    border: dashed 1px #000;
+}
+
+.pics div {
+    margin-bottom: 10px;
+    min-height: 30px;
+}
+
+.pics span {
+    color: red;
+}
+
+.pics:hover span{
+    text-decoration: underline;
+}
+
+.pics:hover img{
+    border: dashed 2px #000;
+}
+
+.sort a{
+    text-decoration: none;
+}
+
+.sort a:hover{
+    color: greenyellow;
+}
