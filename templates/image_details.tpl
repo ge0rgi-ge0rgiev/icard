@@ -11,7 +11,8 @@
     <b><a href="delete_picture.php?id={$photo->id}" onclick="return confirm('Are you sure?')" >Delete this picture</a></b>
     
     <hr />
-    <p><h3>Decription:</h3> {$photo->description}</p>
+    <p><h3>Decription:</h3></p>
+    <div id="desc">{$photo->description}</div>
 </div>
 
 

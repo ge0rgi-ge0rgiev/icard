@@ -122,3 +122,7 @@ table.bordered tr th, table.bordered tr td {
 .sort a:hover{
     color: greenyellow;
 }
+
+#desc {
+	width: 1000px;
+}
